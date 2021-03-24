@@ -31,3 +31,20 @@ docker run -d \
 ```
 
 Then you can hit http://localhost:8081 or http://host-ip:8081 in your browser to view MongoDB admin interface.
+
+---
+
+### Run mongoDB using docker-compose
+
+```bash
+# Clone this repo
+git clone https://github.com/dssudake/mongo-docker.git
+
+# Change directory
+cd mongo-docker
+
+# Run both the MongoDB and mongo-express containers
+docker-compose up -d
+```
+
+Then you can hit http://localhost:8081 or http://host-ip:8081 in your browser to view MongoDB admin interface.
